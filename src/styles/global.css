@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Extiende tu tema aquí */
+@layer base {
+  :root {
+    /* Colores personalizados */
+    --color-primary: #FFEB00;     /* Amarillo neón */
+    --color-dark: #0A0A0A;        /* Negro oscuro */
+    --color-light: #F9F9F9;       /* Texto claro */
+    --color-accent: #FFD700;      /* Amarillo dorado */
+  }
+}
+
+/* Puedes crear clases utilitarias si lo deseas */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .bg-dark {
+    background-color: var(--color-dark);
+  }
+
+  .text-light {
+    color: var(--color-light);
+  }
+
+  .bg-accent {
+    background-color: var(--color-accent);
+  }
+}
