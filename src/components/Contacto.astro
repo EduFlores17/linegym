@@ -1,0 +1,63 @@
+---
+// src/components/Contacto.astro
+---
+<section id="contact" class="py-20 px-6 bg-dark text-light">
+  <div class="max-w-6xl mx-auto text-center mb-16">
+    <h2 class="text-4xl sm:text-5xl font-extrabold uppercase text-primary">
+      Contáctanos
+    </h2>
+    <p class="text-gray-400 mt-4 text-base sm:text-lg">
+      Estamos aquí para resolver tus dudas, agendar una visita o inscribirte.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+    <!-- Info de contacto -->
+    <div class="space-y-6 text-left">
+      <div>
+        <h3 class="text-xl font-bold text-primary uppercase mb-2">Ubicación</h3>
+        <p class="text-gray-300">Av. Ejercicio #123, Zona Fitness, CDMX</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-primary uppercase mb-2">Teléfono</h3>
+        <p class="text-gray-300">+52 55 1234 5678</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-primary uppercase mb-2">Horarios</h3>
+        <p class="text-gray-300">Lunes a Viernes: 6:00 AM – 10:00 PM</p>
+        <p class="text-gray-300">Sábados: 7:00 AM – 3:00 PM</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-primary uppercase mb-2">Síguenos</h3>
+        <div class="flex gap-4 mt-2 text-primary text-xl">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">📘</a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">📷</a>
+          <a href="https://wa.me/525512345678" target="_blank" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario -->
+    <form class="space-y-6" >
+      <div>
+        <label for="name" class="block text-sm font-semibold mb-1">Nombre</label>
+        <input type="text" id="name" name="name" required
+          class="w-full p-3 rounded bg-zinc-800 border border-zinc-700 text-white focus:outline-none focus:ring-2 focus:ring-primary" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-semibold mb-1">Correo</label>
+        <input type="email" id="email" name="email" required
+          class="w-full p-3 rounded bg-zinc-800 border border-zinc-700 text-white focus:outline-none focus:ring-2 focus:ring-primary" />
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-semibold mb-1">Mensaje</label>
+        <textarea id="message" name="message" rows="4" required
+          class="w-full p-3 rounded bg-zinc-800 border border-zinc-700 text-white focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+      </div>
+      <button type="submit"
+        class="bg-primary text-zinc-950 px-6 py-3 rounded uppercase font-bold hover:scale-105 transition">
+        Enviar mensaje
+      </button>
+    </form>
+  </div>
+</section>

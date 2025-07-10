@@ -1,0 +1,51 @@
+---
+// src/components/Testimonios.astro
+---
+<section id="testimonials" class="py-20 px-6 bg-dark text-light">
+  <div class="max-w-6xl mx-auto text-center mb-16">
+    <h2 class="text-4xl sm:text-5xl font-extrabold uppercase text-primary">
+      Lo que opinan de nosotros
+    </h2>
+    <p class="text-gray-400 mt-4 text-base sm:text-lg">
+      Opiniones reales de nuestros miembros más comprometidos.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+    <!-- Testimonio 1 -->
+    <div class="bg-zinc-950 rounded-xl overflow-hidden shadow-lg group transition hover:scale-105">
+      <img src="/img/test1.jpg" alt="Cliente 1"
+        class="w-full h-72 object-cover object-top" />
+      <div class="bg-primary text-zinc-950 p-4 text-center">
+        <p class="italic text-sm mb-2">
+          "El ambiente me motivó a volver al gimnasio."
+        </p>
+        <p class="font-bold uppercase text-sm tracking-wide">Andres Rojas, 27</p>
+      </div>
+    </div>
+
+    <!-- Testimonio 2 -->
+    <div class="bg-zinc-950 rounded-xl overflow-hidden shadow-lg group transition hover:scale-105">
+      <img src="/img/test2.jpg" alt="Cliente 2"
+        class="w-full h-72 object-cover object-top" />
+      <div class="bg-primary text-zinc-950 p-4 text-center">
+        <p class="italic text-sm mb-2">
+          "Las clases funcionales son lo mejor que he probado."
+        </p>
+        <p class="font-bold uppercase text-sm tracking-wide">Samira Lulula, 25</p>
+      </div>
+    </div>
+
+    <!-- Testimonio 3 -->
+    <div class="bg-zinc-950 rounded-xl overflow-hidden shadow-lg group transition hover:scale-105">
+      <img src="/img/test3.jpg" alt="Cliente 3"
+        class="w-full h-72 object-cover object-top" />
+      <div class="bg-primary text-zinc-950 p-4 text-center">
+        <p class="italic text-sm mb-2">
+          "Aquí entreno sin presión, a mi ritmo."
+        </p>
+        <p class="font-bold uppercase text-sm tracking-wide">Carlos Jiménez, 42</p>
+      </div>
+    </div>
+  </div>
+</section>

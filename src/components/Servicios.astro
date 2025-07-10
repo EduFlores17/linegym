@@ -1,0 +1,69 @@
+---
+// src/components/Servicios.astro
+---
+<section id="offer" class="py-20 px-6 bg-dark text-light">
+  <div class="max-w-6xl mx-auto text-center mb-16">
+    <h2 class="text-4xl sm:text-5xl font-extrabold uppercase text-primary">
+      Qué ofrecemos
+    </h2>
+    <p class="text-gray-400 mt-4 text-base sm:text-lg">
+      Estamos comprometidos a brindarte la mejor experiencia de entrenamiento.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <!-- Card 1 -->
+    <div
+      class="relative h-72 rounded-xl overflow-hidden shadow-xl group cursor-pointer"
+    >
+      <img
+        src="/img/pesas.jpg"
+        alt="Tour gimnasio"
+        class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+      />
+      <div
+        class="absolute inset-0 bg-black/60 flex items-center justify-center text-center px-4"
+      >
+        <h3 class="text-xl sm:text-2xl font-bold uppercase text-primary drop-shadow-lg">
+          Area de pesas
+        </h3>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div
+      class="relative h-72 rounded-xl overflow-hidden shadow-xl group cursor-pointer"
+    >
+      <img
+        src="/img/cardio.jpeg"
+        alt="Clases grupales"
+        class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+      />
+      <div
+        class="absolute inset-0 bg-black/60 flex items-center justify-center text-center px-4"
+      >
+        <h3 class="text-xl sm:text-2xl font-bold uppercase text-primary drop-shadow-lg">
+          Area de cardio
+        </h3>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div
+      class="relative h-72 rounded-xl overflow-hidden shadow-xl group cursor-pointer"
+    >
+      <img
+        src="/img/entrenador.png"
+        alt="Entrenamiento personal"
+        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300"
+      />
+      <div
+        class="absolute inset-0 bg-black/60 flex items-center justify-center text-center px-4"
+      >
+        <h3 class="text-xl sm:text-2xl font-bold uppercase text-primary drop-shadow-lg">
+          Entrenamiento personal
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
