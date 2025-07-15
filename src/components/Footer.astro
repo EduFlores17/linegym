@@ -1,0 +1,45 @@
+---
+// src/components/Footer.astro
+---
+<footer class="bg-zinc-950 text-light pt-16 pb-10 px-6 mt-20">
+  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-12 border-b border-zinc-800 pb-10">
+
+    <!-- Branding -->
+    <div class="flex-1">
+      <h3 class="text-3xl font-extrabold uppercase text-primary mb-4 tracking-widest">LineGym</h3>
+      <p class="text-gray-400 text-sm mb-2">
+        Fortaleciendo cuerpo y mente todos los días.
+      </p>
+      <p class="text-gray-500 text-xs">
+        Tu espacio de transformación. Vive el cambio.
+      </p>
+    </div>
+
+    <!-- Enlaces rápidos -->
+    <div class="flex-1">
+      <h4 class="text-lg font-semibold uppercase text-primary mb-4">Explora</h4>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li><a href="/" class="hover:text-primary transition">Inicio</a></li>
+        <li><a href="#about" class="hover:text-primary transition">Nosotros</a></li>
+        <li><a href="#offer" class="hover:text-primary transition">Qué ofrecemos</a></li>
+        <li><a href="#testimonials" class="hover:text-primary transition">Opiniones</a></li>
+        <li><a href="#contact" class="hover:text-primary transition">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="flex-1">
+      <h4 class="text-lg font-semibold uppercase text-primary mb-4">Síguenos</h4>
+      <div class="flex gap-5 text-xl text-primary">
+        <a href="https://facebook.com" class="hover:opacity-80 transition" aria-label="Facebook">📘</a>
+        <a href="https://instagram.com" class="hover:opacity-80 transition" aria-label="Instagram">📷</a>
+        <a href="https://wa.me/525512345678" class="hover:opacity-80 transition" aria-label="WhatsApp">💬</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Créditos -->
+  <div class="text-center text-sm text-zinc-500 mt-6">
+    © 2025 LineGym. Todos los derechos reservados.
+  </div>
+</footer>
